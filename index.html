@@ -21,14 +21,14 @@
     <nav>
         <img src="assets/logo.png" alt="logo">
         <ul>
-            <a href=""><i data-feather="user"></i>Sobre mim</a>
-            <a href=""><i data-feather="briefcase"></i>Serviços</a>
-            <a href=""><i data-feather="image"></i>Portifólio</a>
-            <a href=""><i data-feather="list"></i>lCurrículo</a>
-            <a href=""><i data-feather="send"></i>Contato</a>
+            <a href="#aboutme"><i data-feather="user"></i>Sobre mim</a>
+            <a href="#services"><i data-feather="briefcase"></i>Serviços</a>
+            <a href="#portfolio"><i data-feather="image"></i>Portifólio</a>
+            <a href="#curriculum"><i data-feather="list"></i>Currículo</a>
+            <a href="#contact"><i data-feather="send"></i>Contato</a>
         </ul>
     </nav>
-    <section class="about-me">
+    <section id="aboutme" class="about-me">
         <div class="container">
             <h1 class="title-green">Sobre mim</h1>
             <p>Blumenauense de 34 anos, em busca da transição de carreira e de oportunidades como desenvolvedora frontend jr. Sou formada em Administração Comercio Exterior (FURB), Pós graduada em Gestão (Uniasselvi) e MBA em Comercial e Vendas (INPG) e diversos cursos de curta duração de curiosa mesmo, como por exemplo, Beer Sommeliere pelo Science of Beer. Atualmente trabalho como Analista Admninistrativo, mas estou focada na transição de carreira para área de desenvolvedora front-end.                 
@@ -39,9 +39,125 @@
         <div class="img-container">
             <div class="line green"></div>
             <div class="line purple"></div>
-            <img src="assets/profilepic.JPG" alt="Milena Claudino">
+            <img src="assets/profile.JPG" alt="Milena Claudino">
         </div>
     </section>
+    <section id="services" class="services">
+        <h1 class="title-purple">Serviços</h1>
+        <div class="services-container">
+            <div class="service-card">
+                <img src="assets/terminal-icon.png" alt="Icone de terminal">
+                <h2>Desenvolvimento de sites</h2>
+                <p>Desenvolvimento de sites empresariais. Faca sua empresa ser facilmente encontrada online.</p>
+            </div>
+            <div class="service-card">
+                <img src="assets/code-icon.png" alt="Icone de codigo">
+                <h2>Desenvolvimento de aplicacoes web</h2>
+                <p>Desenvolvimento de aplicacoes web como sistemas de gerenciamento, feito sob medida.</p>
+            </div>
+            <div class="service-card">
+                <img src="assets/diamond-icon.png" alt="Icone de diamante">
+                <h2>Criacao de layouts</h2>
+                <p>Criacao de prototipos de interfaces web e mobile para validar sua ideia antes de por em pratica.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h1 class="title-green">Portfolio</h1>
+        <div class="portfolio-container">
+            <div class="portfolio-card">
+                <div class="img-container">
+                    <div class="line green"></div>
+                    <img src="assets/linktree.png" alt="Imagem do Portfolio">
+                </div>
+                <div class="language-container">
+                    <ul>
+                        <li>html</li>
+                        <li>css</li>
+                        <li>js</li>
+                    </ul>
+                </div>
+                <p><b>LinkTree</b></p>
+                <p>Projeto feito usando html, css e js com o objetivo de ser um agrupador de links para o instagram.</p>
+            </div>
+            <div class="portfolio-card">
+                <div class="img-container">
+                    <div class="line green"></div>
+                    <img src="assets/linktree.png" alt="Imagem do Portfolio">
+                </div>
+                <div class="language-container">
+                    <ul>
+                        <li>html</li>
+                        <li>css</li>
+                        <li>js</li>
+                    </ul>
+                </div>
+                <p><b>LinkTree</b></p>
+                <p>Projeto feito usando html, css e js com o objetivo de ser um agrupador de links para o instagram.</p>
+            </div>
+            <div class="portfolio-card">
+                <div class="img-container">
+                    <div class="line green"></div>
+                    <img src="assets/linktree.png" alt="Imagem do Portfolio">
+                </div>
+                <div class="language-container">
+                    <ul>
+                        <li>html</li>
+                        <li>css</li>
+                        <li>js</li>
+                    </ul>
+                </div>
+                <p><b>LinkTree</b></p>
+                <p>Projeto feito usando html, css e js com o objetivo de ser um agrupador de links para o instagram.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="curriculum" class="curriculum">
+        <h1 class="title-green">Curriculo</h1>
+        <div class="container">
+            <img class="curriculum-img" src="assets/curriculum-img.png">
+            <div class="content">
+                <div class="curriculum-info">
+                    <span>Nome</span><b>Milena Claudino</b>
+                    <span>Idade</span><b>34 anos</b>
+                    <span>Formacao</span><b>Front-End em formacao</b>
+                    <span>Cidade</span><b>Blumenau - SC</b>
+                    <span>Telefone</span><b>(55) 9999-9999</b>
+                    <span>Email</span><b>milena@gmail.com</b>
+                    <span>Freelance</span><b>Disponivel</b>
+                    <span>Exp</span><b>HTML, CSS, JS, Vue Js</b>
+                    <span>Idiomas</span><b>Ingles</b>
+
+                </div>
+                <button class="secondary-button">
+                    <img src="assets/save-icon.png">
+                    Baixe meu curriculo completo
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h1>Vamos trabalhar Juntos?</h1>
+        <p>Se você gostou do meu trabalho e quer que eu tire sua ideia do papel ou faça parte do seu time, entre em contato comigo!</p>
+        <button onclick="window.open('https://api.whatsapp.com/send?phone=559999999')">Entre em contato</button>
+
+        <div class="social-media">
+            <a href=""><img src="assets/Instagram.png" alt="Logo Instagram"></a>
+            <a href=""><img src="assets/youtube.png" alt="Logo Youtube"></a>
+            <a href=""><img src="assets/linkedin.png" alt="Logo LinkedIn"></a>
+            <a href="https://api.whatsapp.com/send?phone=559999999"><img src="assets/whatsapp.png" alt="Logo Whatsapp"></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Made by Milena Claudino - 2021</p>
+    </footer>
+
+
 
 
     <i data-feather="circle"></i>
